@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="algoStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <script src="d3.min.js"></script>
+    <script src="AP_dfs.js"></script>
+    <title>AP DFS</title>
+</head>
+<body>
+    <svg id="svg">
+        <rect id="rect"x="0" y="0"  fill="#292C34" width=100%  height=100%></rect>  
+        <g id="text">
+            <text x="420" y="300"  style="font-family: 'Roboto', sans-serif; font-size  : 56; font-weight: 700; fill:#FFFFFF;"  >Choisissez la méthode</text>
+            <text x="420" y="360"  style="font-family: 'Roboto', sans-serif; font-size  : 56; font-weight: 700; fill:#FFFFFF;"  >d’entrer du graph </text> 
+            
+        </g>
+        <g id="random">
+            <rect x="420" y="516"  fill="#8DCEA8" width="260" rx="18" height="48"></rect>  
+            <text x="490" y="550"  style="font-family: 'Roboto', sans-serif; font-size  : 28;  fill:#FFFFFF;"  >Aléatoire</text>
+        </g> 
+        <g id="hand">
+            <rect x="760" y="516"  fill="#8DCEA8" width="260" rx="18" height="48"></rect>  
+            <text x="840" y="550"  style="font-family: 'Roboto', sans-serif; font-size  : 28;  fill:#FFFFFF;"  >A main</text>
+        </g>
+        <image xlink:href="images/spot2.png" x="1100" y="650"/>
+    </svg>
+</body>
+</html>
